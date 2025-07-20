@@ -1,0 +1,21 @@
+import com.abc.Arthmatic;
+import com.pqr.Information;
+public class Arthmatic {
+
+	public static void main(String[] args) {
+		Addition a1 = new  Addition();
+		a1.Display();
+		Subtraction s1 = new Subtraction();
+		s1.Display();
+		Multiplication m1 = new Multiplication();
+		m1.Display();
+		Division d1 = new Division();
+		d1.Display();
+		Module m2 = new Module ();
+		m2.Display();
+		Information i1 =  new Information();
+		i1.Displayd1();
+		
+	}
+
+}
