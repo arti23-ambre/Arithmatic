@@ -1,0 +1,102 @@
+package com.abc;
+
+public class Arthmatic {
+
+	public static void main(String[] args) {
+		Addition a1 = new  Addition();
+		a1.Display();
+		Subtraction s1 = new Subtraction();
+		s1.Display();
+		Multiplication m1 = new Multiplication();
+		m1.Display();
+		Division d1 = new Division();
+		d1.Display();
+		Module m2 = new Module ();
+		m2.Display();
+	}
+
+}
+
+
+
+
+package com.abc;
+
+public class Addition {
+	int a = 32;
+	int b = 21;
+	void Display() {
+		System.out.println("Addition:" + (a+b));
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+
+package com.abc;
+
+public class Subtraction {
+	int a = 52;
+	int b = 21;
+	void Display() {
+		System.out.println("Subtraction:" + (a-b));
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+
+package com.abc;
+
+public class Multiplication {
+	int a = 2;
+	int b = 71;
+	void Display() {
+		System.out.println("Multiplication:" + (a*b));
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+
+package com.abc;
+
+public class Division {
+	int a = 32;
+	int b = 71;
+	void Display() {
+		System.out.println("Division:" + (a/b));
+	}
+
+	public static void main(String[] args) {
+		
+
+}
+}
+
+
+
+package com.abc;
+
+public class Division {
+	int a = 32;
+	int b = 71;
+	void Display() {
+		System.out.println("Division:" + (a/b));
+	}
+
+	public static void main(String[] args) {
+		
+
+}
+}
